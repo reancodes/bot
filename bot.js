@@ -41,6 +41,11 @@ client.on('message', msg => {
       msg.channel.sendMessage("Botten er lavet af Genta");
     }
   });
+ client.on('message', msg => {
+    if (msg.content === '!giveaways') {
+      msg.channel.sendMessage("Vi starter med at lave giveaways snart, så vi håber på alle folk i discord vil blive glade.! @everyone");
+    }
+  });
   client.on('message', msg => {
     if (msg.content === '!steam') {
       msg.channel.sendMessage("Skippy's Profil: http://steamcommunity.com/profiles/76561198294357301/") + msg.channel.sendMessage("Genta's Profil: http://steamcommunity.com/id/DistureGenta/");
