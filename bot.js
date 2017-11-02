@@ -18,7 +18,7 @@ client.on('message', msg => {
   });
   client.on('message', msg => {
     if (msg.content === '!ip') {
-      msg.channel.sendMessage("G.A.P's CS:GO Server:") + msg.channel.sendMessage("Vi får ny ip fordi vores anden server blev lukket af valve.");
+      msg.channel.sendMessage("G.A.P's CS:GO Server:") + msg.channel.sendMessage("Sådan vi har nu fået vores nye ip til serveren. connect 93.186.198.117:31815");
     }
   });
   client.on('message', msg => {
