@@ -54,7 +54,7 @@ client.on('message', msg => {
   });
   client.on('message', msg => {
     if (msg.content === 'comp') {
-      msg.channel.sendMessage("Ja vi er altid med på en comp!");
+      msg.channel.sendMessage("`Ja vi er altid med på en comp!`");
     }
   });
   client.on('message', msg => {
