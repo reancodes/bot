@@ -25,9 +25,7 @@ client.on('message', msg => {
   });
   client.on('message', msg => {
     if (msg.content === '!owners') {
-      msg.channel.sendMessage(" ```cs
-G.A.P's Owners: Skippy, Genta
-```");
+      msg.channel.sendMessage("G.A.P's Owners: Skippy, Genta");
     }
   });
   client.on('message', msg => {
