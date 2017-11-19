@@ -9,7 +9,7 @@ client.on('ready', () => {
 
 client.on('message', msg => {
   if (msg.content === 'test') {
-    msg.reply('Test');
+    msg.reply('`Test`');
   }
 });
 client.on('message', msg => {
